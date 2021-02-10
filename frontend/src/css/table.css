@@ -1,0 +1,187 @@
+table.myTableAccount {
+    border: 1px solid #1C6EA4;
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  table.myTableAccount td, table.myTableAccount th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  table.myTableAccount tbody td {
+    font-size: 13px;
+  }
+  table.myTableAccount tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+  table.myTableAccount thead {
+    background: #1C6EA4;
+    background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+    background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+    background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+    border-bottom: 2px solid #444444;
+  }
+  table.myTableAccount thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-left: 2px solid #D0E4F5;
+  }
+  table.myTableAccount thead th:first-child {
+    border-left: none;
+  }
+  
+  table.myTableAccount tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #D0E4F5;
+    background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+    background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+    background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+    border-top: 2px solid #444444;
+  }
+  table.myTableAccount tfoot td {
+    font-size: 14px;
+  }
+  table.myTableAccount tfoot .links {
+    text-align: right;
+  }
+  table.myTableAccount tfoot .links a{
+    display: inline-block;
+    background: #1C6EA4;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
+
+  
+table.myTableUser {
+    border: 1px solid #ffd930;
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  table.myTableUser td, table.myTableUser th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  table.myTableUser tbody td {
+    font-size: 13px;
+  }
+  table.myTableUser tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+  table.myTableUser thead {
+    background: #ffd930;
+    background: -moz-linear-gradient(top, #c98021 0%, #f57b29 66%, #b4590f 100%);
+    background: -webkit-linear-gradient(top, #c98021 0%, #f57b29 66%, #b4590f 100%);
+    background: linear-gradient(to bottom, #c98021 0%, #f57b29 66%, #b4590f 100%);
+    border-bottom: 2px solid #444444;
+  }
+  table.myTableUser thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-left: 2px solid #D0E4F5;
+  }
+  table.myTableUser thead th:first-child {
+    border-left: none;
+  }
+  
+  table.myTableUser tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #D0E4F5;
+    background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+    background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+    background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+    border-top: 2px solid #444444;
+  }
+  table.myTableUser tfoot td {
+    font-size: 14px;
+  }
+  table.myTableUser tfoot .links {
+    text-align: right;
+  }
+  table.myTableUser tfoot .links a{
+    display: inline-block;
+    background: #ffd930;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
+
+  
+table.myTableTransaction {
+    border: 1px solid #217500;
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  table.myTableTransaction td, table.myTableTransaction th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  table.myTableTransaction tbody td {
+    font-size: 13px;
+  }
+  table.myTableTransaction tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+  table.myTableTransaction thead {
+    background: #217500;
+    background: -moz-linear-gradient(top, #50eb2a 0%, #44c523 66%, #2e8a17 100%);
+    background: -webkit-linear-gradient(top, #50eb2a 0%, #44c523 66%, #2e8a17 100%);
+    background: linear-gradient(to bottom, #50eb2a 0%, #44c523 66%, #2e8a17 100%);
+    border-bottom: 2px solid #444444;
+  }
+  table.myTableTransaction thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-left: 2px solid #D0E4F5;
+  }
+  table.myTableTransaction thead th:first-child {
+    border-left: none;
+  }
+  
+  table.myTableTransaction tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #D0E4F5;
+    background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+    background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+    background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+    border-top: 2px solid #444444;
+  }
+  table.myTableTransaction tfoot td {
+    font-size: 14px;
+  }
+  table.myTableTransaction tfoot .links {
+    text-align: right;
+  }
+  table.myTableTransaction tfoot .links a{
+    display: inline-block;
+    background: #217500;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
